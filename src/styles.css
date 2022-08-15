@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(247, 242, 242);
+}
+
+.top-section {
+  display: flex;
+  justify-content: center;
+}
+
+.show-rules {
+  margin: auto;
+  margin-right: 10%;
+  background-color: grey;
+  border: none;
+  cursor: pointer;
+  height: 30%;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.title {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.board-enclose {
+  height: 70vh;
+  overflow: auto;
+  margin: 0 3rem;
+}
+
+.board {
+  background-image: linear-gradient(#333 1px, transparent 1px),
+    linear-gradient(90deg, #333 1px, transparent 1px);
+  background-color: #000;
+  position: relative;
+}
+
+.cell {
+  position: absolute;
+  background-color: green;
+}
+
+.buttons-inputs {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.run,
+.clear {
+  border: none;
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 0.5rem 1rem;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.pop-up {
+  top: 10%;
+  left: 40%;
+  background-color: rgb(77, 75, 75);
+  z-index: 1;
+  position: absolute;
+  border-radius: 20px;
+  width: 50%;
+  color: white;
+}
+
+a {
+  color: rgb(217, 255, 0);
+}
+
+.rules-list > li {
+  margin: 1rem;
+}
